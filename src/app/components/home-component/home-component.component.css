@@ -17,12 +17,21 @@
 
 .wrapper .subgrid{
     display:grid;
-    justify-items: center;
-    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    margin-right: 25%;
+    
+
    
 
 }
 
-.searchBox {
-    margin-bottom: 1%;
+.subgrid > .searchBox {
+
+
+   
+}
+
+.subgrid > .resultTable {
+
 }

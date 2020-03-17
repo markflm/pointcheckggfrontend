@@ -6,6 +6,7 @@ import { HomeComponentComponent } from './components/home-component/home-compone
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PlayercardComponent } from './components/playercard/playercard.component';
 import { ResulttableComponent } from './components/resulttable/resulttable.component';
+import { SearchboxComponent } from './components/searchbox/searchbox.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ResulttableComponent } from './components/resulttable/resulttable.compo
     HomeComponentComponent,
     NavbarComponent,
     PlayercardComponent,
-    ResulttableComponent
+    ResulttableComponent,
+    SearchboxComponent
   ],
   imports: [
     BrowserModule
