@@ -1,0 +1,12 @@
+body {
+    height: 1080px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 /*removed 'white border' from edge of screen*/
+}
+
+.background {
+    height: 100%;
+    width: 100%;
+    background-image:url('src\assets\images\narrows-bg.jpg');
+}

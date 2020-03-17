@@ -1,38 +1,28 @@
 .wrapper{
     display:grid;
-    grid-template-columns: 1fr 3fr;
-    /*grid-auto-rows: minmax(50px, auto);*/
+    grid-template-columns: 1fr 1fr 6fr;
+    grid-template-rows: minmax(100vh, auto);
+
+
     
-    /*justify-items: stretch; 
-        where the content in the cell will appear. stretch is default, takes up as much space as your template-columns allows*/
- /*    grid-template-columns:1fr 2fr 1fr;
-    gap: 1em;
-    grid-auto-rows: minmax(100px, auto); /*100px by default, but if content bigger than scale that row to the size of content*/
-    /*grid-auto-rows: 100px;*/
-    /* row-gap: 2em;
-    column-gap: 1em;
-    gap: 5em; "gap" property sets the column and row gap to the same value 
-     grid-template-columns:70% 30%; //can use %s instead of fractional units, but fr rec'd*/
+   
 }
 
 .wrapper > div {
-    background:#eee;
+    /*background:#eee;*/
     padding: 1em;
+    border-radius: 20px solid;
+    border:black;
 }
 
-/* div:nth-child(odd) = every other div with that class has these styles*/
-.wrapper > div:nth-child(odd){ 
-    background: #ddd;
+.wrapper .subgrid{
+    display:grid;
+    justify-items: center;
+    align-items: flex-end;
+   
+
 }
 
-/* .nested {
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-auto-rows: minmax(70px, auto);
+.searchBox {
+    margin-bottom: 1%;
 }
-
-.nested > div {
-    border: #333 1px solid;
-    padding: 1em;
-    
-} */
